@@ -1,0 +1,17 @@
+{
+  "bad_edit_code": "E_BAD_EDIT",
+  "anchor_shift": 30,
+  "view": {"scroll": 40, "height": 90},
+  "rows": [
+    {"id": "r0", "height": 20},
+    {"id": "r1", "height": 30},
+    {"id": "r2", "height": 20},
+    {"id": "r3", "height": 40},
+    {"id": "r4", "height": 20},
+    {"id": "r5", "height": 20}
+  ],
+  "edits": [
+    {"op": "update", "at": 3, "height": 40},
+    {"op": "remove", "at": 1}
+  ]
+}
